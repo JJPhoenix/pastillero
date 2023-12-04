@@ -7,7 +7,6 @@ import java.util.List;
 @Data
 public class IndicacionDto {
     String indicacionId;
-    String medicamentoId;
     int dosisRecetada;
     int dosisTomada;
     int frecuencia;
