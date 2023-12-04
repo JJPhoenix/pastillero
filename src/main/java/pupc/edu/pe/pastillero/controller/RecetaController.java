@@ -33,9 +33,9 @@ public class RecetaController {
         return recetaService.editarReceta(request, "user1");
     }
 
-    @DeleteMapping
+    @DeleteMapping(value = "/{recetaId}")
     @Operation(summary = "Eliminar una receta")
-    ApplicantResponse eliminarReceta(@RequestBody String recetaId){
+    ApplicantResponse eliminarReceta(@PathVariable String recetaId){
         return recetaService.eliminarReceta(recetaId, "user1");
     }
 }
