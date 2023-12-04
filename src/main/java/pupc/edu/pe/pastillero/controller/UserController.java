@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.*;
 import pupc.edu.pe.pastillero.dto.request.LoginRequest;
 import pupc.edu.pe.pastillero.dto.request.UserRequest;
 import pupc.edu.pe.pastillero.dto.response.LoginResponse;
+import pupc.edu.pe.pastillero.dto.response.PacienteResponse;
 import pupc.edu.pe.pastillero.dto.response.UserResponse;
 import pupc.edu.pe.pastillero.service.UserService;
 
@@ -30,7 +31,7 @@ public class UserController {
 
     @GetMapping
     @Operation(summary = "Ver usuario")
-    public UserResponse buscarUsuario(@RequestBody String usuario){
+    public PacienteResponse buscarUsuario(@RequestBody String usuario){
         return null;
     }
 

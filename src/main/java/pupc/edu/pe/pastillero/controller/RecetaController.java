@@ -35,7 +35,7 @@ public class RecetaController {
 
     @DeleteMapping
     @Operation(summary = "Eliminar una receta")
-    ApplicantResponse eliminarReceta(@RequestBody RecetaRequest request){
-        return recetaService.eliminarReceta(request, "user1");
+    ApplicantResponse eliminarReceta(@RequestBody String recetaId){
+        return recetaService.eliminarReceta(recetaId, "user1");
     }
 }

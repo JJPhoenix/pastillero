@@ -7,6 +7,6 @@ import pupc.edu.pe.pastillero.dto.response.RecetasResponse;
 public interface RecetaService {
     ApplicantResponse crearReceta(RecetaRequest request, String idUser);
     ApplicantResponse editarReceta(RecetaRequest request, String idUser);
-    ApplicantResponse eliminarReceta(RecetaRequest request, String idUser);
+    ApplicantResponse eliminarReceta(String request, String idUser);
     RecetasResponse verRecetas(String idUser);
 }

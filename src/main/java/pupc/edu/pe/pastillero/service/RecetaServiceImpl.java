@@ -21,7 +21,7 @@ public class RecetaServiceImpl implements RecetaService{
     }
 
     @Override
-    public ApplicantResponse eliminarReceta(RecetaRequest request, String idUser) {
+    public ApplicantResponse eliminarReceta(String request, String idUser) {
         ApplicantResponse response = new ApplicantResponse();
         return response;
     }

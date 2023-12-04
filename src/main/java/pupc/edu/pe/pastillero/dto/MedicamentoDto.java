@@ -4,6 +4,11 @@ import lombok.Data;
 
 @Data
 public class MedicamentoDto {
-    String label;
-    String path;
+    String medicamentoId;
+    String nombreComercial;
+    String tipo;
+    String fabricante;
+    double concentracion;
+    String descripcion;
+    String imagen;
 }
