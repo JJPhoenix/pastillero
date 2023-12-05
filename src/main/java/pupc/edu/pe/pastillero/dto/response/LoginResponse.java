@@ -7,6 +7,7 @@ import pupc.edu.pe.pastillero.dto.base.Response;
 public class LoginResponse extends Response {
     private Long userId;
     private String userCode;
+    private String tokenUser;
 
     String nombre;
     String user;

@@ -8,7 +8,7 @@ import pupc.edu.pe.pastillero.dto.response.MedicamentoListResponse;
 @Service
 public class FarmaciaServiceImpl implements FarmaciaService{
     @Override
-    public MedicamentoListResponse buscarFarmacia(MedicamentoRequest request) {
+    public MedicamentoListResponse buscarFarmacia(String request) {
         return null;
     }
 
