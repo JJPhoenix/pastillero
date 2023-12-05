@@ -13,7 +13,7 @@ import pupc.edu.pe.pastillero.dto.request.SeguimientoRequest;
 
 @RestController
 @RequestMapping("/v1/api/seguimento")
-@Tag(name = "Medicamentos", description = "Endpoints para gestionar los seguimientos de recetas.")
+@Tag(name = "Segumiento", description = "Endpoints para gestionar los seguimientos de recetas.")
 public class SeguimientoController {
 
     @PostMapping
